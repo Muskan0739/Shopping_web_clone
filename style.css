@@ -1,11 +1,40 @@
-nav{
-    background-color: rgba(2, 126, 172, 0.833);
-   padding: 10px;
-    
+
+nav {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-nav a:hover{
-    color: brown;
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: rgba(139, 69, 19, 0.6);
+}
+
+nav a.active {
+    background-color: brown;
+}
+
+body {
+    background-color: peachpuff; 
+}
+
+.head {
+    color: white;
+    width: 650px;
+    color: white;
+    font-family: 'Your Custom Font', sans-serif; /* Replace 'Your Custom Font' with the actual font name */
+    font-size: 1.5em; /* Adjust font size as needed */
+    margin: 0;
 }
 
 a{
